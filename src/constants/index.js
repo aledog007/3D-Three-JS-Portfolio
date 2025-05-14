@@ -143,7 +143,7 @@ export const myProjects = [
   {
     title: 'Fullstack Fullstack Entwickler/in im Team Minion',
     desc: 'Als Fullstack-Entwickler im Team Minions arbeitete ich mit Angular im Frontend und Python sowie FastAPI im Backend an der Webapplikation "Vegeta". Dabei lernte ich die Aufgaben eines Fullstack-Entwicklers sowie Scrum Rituale kennen und trug aktiv zur Projektarbeit bei. Ich konfigurierte den Linter Ruff für das Backend, optimierte die Codequalität und nahm an Code Reviews teil, um Entwicklungsprozesse zu verbessern. Zu meinen Aufgaben zählte ausserdem die Entwicklung und Integration neuer Features, die Funktionalität und Benutzerfreundlichkeit erweiterten, stets in Abstimmung mit Stakeholdern. Dabei konnte ich sowohl meine technischen als auch meine Soft Skills in Teamarbeit, Kommunikation und Problemlösung stärken.',
-    subdesc: 'August 2024 - Heute',
+    subdesc: 'August 2024 - Februar 2025',
     logo: '/assets/project-logo4.jpg',
     logoStyle: {
       backgroundColor: '#0E1F38',
@@ -171,6 +171,32 @@ export const myProjects = [
         id: 4,
         name: 'Ruff',
         path: '/assets/ruff.svg',
+      },
+    ],
+  },
+    {
+    title: 'A-Team',
+    desc: 'Das A-Team ist die Abkürzung für das Automation Team. Hier wird die Zusammenarbeit unter Knowhow-Transfer zwischen den Experten und innovativen Lernenden gefördert. Die agile Organisation automatisiert seit vielen Jahren erfolgreiche Testfälle und produktive Prozesse für interne und externe Kunden. Dabei automatisierte ich mit UiPath und entwickelte Workflows, die nicht nur repetitive Aufgaben erleichterten, sondern ganze Prozessketten effizienter gestalteten. Um mein Wissen gezielt zu vertiefen, absolvierte ich einen umfassenden Lernpfad über UiPath, der mir fundierte Kenntnisse in der Robotic Process Automation (RPA) vermittelte.',
+    subdesc:
+      'Februar 2025 - Heute',
+    texture: '/textures/project/project1.mp4',
+    logo: '/assets/automatisierung.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'RPA',
+        path: '/assets/RPA.png',
+      },
+      {
+        id: 2,
+        name: 'UIPath',
+        path: 'assets/uipath.svg',
       },
     ],
   },
